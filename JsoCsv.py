@@ -23,3 +23,7 @@ def convert_to_csv_from_json(json_file, output_file):
                 csv_writer.writerow(d)
 
 convert_to_csv_from_json(args.file, args.file.replace("json", "csv"))
+
+#In command line do - 
+#JsoCsv.py --file data.json
+#It will make a new file which has the same name as the original data but with csv ending
